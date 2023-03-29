@@ -1,0 +1,309 @@
+:root {
+    --main-title-color: #FFFFFF;
+    --third-tittle-color: #4D5AE5;
+    --color-span: #2E2F42;
+    --color-adress: #434455;
+    --footer-color: #F4F4FD;
+    --products-color: #404BBF;
+    }
+    p,h1,h2,h3,h4,h5,h6, {margin: 0;}
+    ul{margin: 0; padding-left: 0;}
+    
+    body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--main-title-color);
+    color: #434455;
+    }
+    
+    .font {
+    font-style: normal;
+    }
+    
+    .list {
+    list-style: none;
+    }
+    
+    .link {
+    text-decoration: none;
+    }
+    .container {
+        width: 1128px;
+        padding-left: 15px; 
+        padding-right: 15px;
+    margin: 0 auto;}
+    
+    .link:hover, link:focus {
+    color: #404bbf;
+    }
+    
+    
+    .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+    img {display: block;}
+    
+    
+    /*....... Header.......*/
+    
+    .header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--third-tittle-color);
+    }
+    
+    .studio-color {
+    color: var(--color-span);
+    }
+    
+    
+    .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: var(--color-span);
+    }
+    
+    
+    .header-link:hover,
+    .header-link:focus {
+    color: #404bbf;
+    }
+    
+    .header-address {
+    font-style: normal;
+    }
+    
+    .header-address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+    
+    .header-address-link:hover,
+    .header-address-link:focus {
+    color:var(--products-color);
+    }
+    
+    
+    
+    /**......Effective....*/
+    .main-hero {
+    background-color: var(--color-span);
+    }
+    .hero{padding-top: 120px;
+         padding-bottom: 120px;}
+    .main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:var(--main-title-color);
+    }
+    
+    .modal-btn {
+    background-color: var(--third-tittle-color);
+    }
+    
+    .modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--main-title-color);
+    cursor: pointer;
+    }
+    
+    .modal-btn:hover {
+    color:#FFFFFF; 
+    }
+    
+    .modal-btn:focus {
+    color:#FFFFFF;
+    }
+    
+    .modal-btn:hover {
+    background-color: var(--products-color);
+    }
+    
+    .modal-btn:focus {
+    background-color:var(--products-color);
+    }
+    
+    /*----Second section----*/
+    .section-second {padding-top: 120px;
+        padding-bottom: 120px ;}
+    .hero-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--color-span);
+    }
+    
+    
+    .hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color-adress);
+    }
+    
+    
+    /*-----What are we doing---*/
+    
+    
+    .section-second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-span);
+    }
+    
+    
+    /**---Our Team--*/
+    .section-three {
+    background-color:#F4F4FD;
+    }
+    .four-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    background-color: #F4F4FD;
+    }
+    
+    .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-span);
+    }
+    
+    .section-link {
+    background-color:#FFFFFF;
+    }
+    .section-three{padding-top: 120px;
+    padding-bottom: 120px;}
+   
+    .section-three-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-span);
+    }
+    
+    
+    .section-three-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-adress);
+    }
+    
+    
+    
+    /*-- Footer --*/
+    .footer-main {
+    background-color: var(--color-span);
+    }
+    
+    .footer-main-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:var(--third-tittle-color);
+    }
+    
+    .footer-studio-color {
+    color: #F4F4FD;
+    }
+    
+    .footer-main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-main-text-color);
+    }
+    
+    .footer-main-link:hover,
+    .footer-main-link:focus {
+    color: #404bbf;
+    }
+    
+    
+    
+    
+    /*--Portfolio--*/
+    
+    .filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--third-tittle-color);
+    cursor: pointer;
+    }
+    
+    .filter-btn {
+    background:#F4F4FD;
+    }
+    
+    .filter-btn:hover,
+    .filter-btn:focus {
+    color: #FFFFFF;
+    }
+    
+    .filter-btn:hover,
+    .filter-btn:focus {
+    background-color: var(--products-color);
+    }
+    
+    
+    
+    .category-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+    }
+    
+    .category-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color-adress);
+    }
