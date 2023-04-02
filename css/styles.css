@@ -16,20 +16,22 @@
     }
     .section {
     padding-top: 120px;
-    padding-bottom: 120px;}
+    padding-bottom: 120px;
+    }
+    
     .font {
     font-style: normal;
     }
-    
+     
     .list {
     list-style: none;
-    }
+       }
     
     .link {
     text-decoration: none;
-    }
+       }
     .container {
-        width: 1128px;
+        width: 1158px;
         padding-left: 15px; 
         padding-right: 15px;
     margin: 0 auto;}
@@ -49,7 +51,15 @@
     
     
     /*....... Header.......*/
-    
+    .header {
+        border-bottom: 1px solid #E7E9FC;
+        }
+    .header-navigation {display: flex;
+    align-items: center;
+    margin-right: auto;}
+    .header-list{display: flex;}
+    .header-container{display: flex;
+                 align-items: center;}
     .header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -58,8 +68,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--third-tittle-color);
-    }
-    
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;}
+     
     .studio-color {
     color: var(--color-span);
     }
@@ -82,7 +94,7 @@
     
     .header-address {
     font-style: normal;
-    }
+        }
     
     .header-address-link {
     font-weight: 400;
@@ -90,6 +102,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-right: 40px;
     }
     
     .header-address-link:hover,
@@ -97,7 +110,8 @@
     color:var(--products-color);
     }
     
-    
+    .header-list { display: flex;
+        gap: 40px;}
     
     /**......Effective....*/
     .main-hero {
